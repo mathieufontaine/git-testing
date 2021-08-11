@@ -2,11 +2,37 @@ html {
   font-size: 10px;
 }
 
+body {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+section {
+  margin: 2rem;
+}
+
 h1 {
-  color: blue;
+  color: black;
   font-size: 5rem;
 }
 
-p {
-  font-size: 1rem;
+header {
+  height: 20vh;
+  width: 100%;
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background: black;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
 }
